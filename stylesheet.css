@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Bagian Header Logo Dan Navigasi */
+header{
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  top: 0px;
+  z-index: 10;
+  background: #A78A44;
+} 
+.header-left{
+  margin-top: 20px;
+  float: left;
+  font-family: sofia;
+  font-size: 30px;
+  line-height: 30px;
+  margin-left: 60px;
+  color: #FFFFFF;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  font-family: sofia;
+  font-size: 20px;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.fa {
+  margin-right: 5px;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  
+}
+
+ 
+
+
+
+/* Akhir Bagian Header Logo Dan Navigasi */
+
+/* Bagian Top Wrapper */
+
+/* Akhir Bagian Top Wrapper */
+
+/* Bagian Tentang */
+/* BAGIAN AWAL SELAMAT DATANG */
+
+.top-wrapper {
+  padding: 100px 0 100px 0;
+  background: rgba(216, 241, 62, 0.39);
+  height: 600px;
+  /* color: white; */
+  
+}
+
+.top-wrapper .left {
+  width: 50%;
+  float: left;
+}
+
+.top-wrapper .left h1 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 24px;
+
+
+color: #000000;
+}
+
+.top-wrapper .left p {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: 0.1em;
+}
+.top-wrapper a {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 24px;
+text-decoration: none;
+color: black;
+transition: all 0.5s ease;
+}
+
+.top-wrapper a:hover {
+  font-size: 36px;
+  padding: 20px;
+  color: rgb(193, 66, 66);
+
+}
+
+.top-wrapper .right {
+
+  float: right;
+}
+
+.right img{
+  width: 450px;
+  height: 450px;
+  
+}
+/* Akhir Bagian Tentang */
+
+/* Bagian Daftar Dongeng */
+/* Akhir Bagian Daftar Dongeng */
+
+/* Bagian Footer */
+/* Akhir Footer */
+
+/* Responsiv ukuran tablet max-width:1000px */
+@media all and (max-width: 1000px){
+  
+}
+
+/* Responsive ukuran smartphone max-width;670px */
+@media all and (max-width: 670px){
+  .menu-icon {
+    display:none;
+  }
+  .header-right{
+    display: none;
+  }
+  .top-wrapper{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .top-wrapper .left {
+    width: 100%;
+  }
+  .top-wrapper .right {
+    width: 100%;
+  }
+  .top-wrapper .right img {
+    margin-top: 20px;
+    width: 180px;
+    height: 150px;
+  }
+
+}
