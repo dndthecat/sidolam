@@ -23,7 +23,7 @@ header {
   top: 0px;
   z-index: 10;
   background: rgb(167, 138, 68);
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .header-left{
@@ -66,7 +66,7 @@ header {
 /* Bagian Top Wrapper */
 .top-wrapper {
   font-family: sofia;
-  padding: 50px 0 20px 0;
+  padding: 100px 0 20px 0;
   background-image: url(img/background.png);
   background-size: cover;
   color: white;
@@ -75,14 +75,15 @@ header {
 
 .top-wrapper h1 {
   opacity: 0.7;
-  font-size: 45px;
+  font-size: 55px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .top-wrapper p {
   opacity: 0.7;
-  margin-bottom: 3px;
+  font-size: 20px;
+  margin-bottom: 5px;
 } 
 /* Akhir Bagian Top Wrapper */
 
