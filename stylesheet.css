@@ -59,6 +59,7 @@ header {
   float: right;
   font-size: 25px;
   padding: 21px 0;
+  display:none;
 }
 
 /* Akhir Bagian Header Logo Dan Navigasi */
@@ -241,33 +242,33 @@ footer {
 /* Responsive ukuran smartphone max-width;670px */
 @media all and (max-width: 670px){
   header {
-  height:50px;
+  height: 50px;
   }
-  
+
   .header-left img {
   width:50px;
   }
-  
-  .menu-icon {
-    display:none;
+
+  .menu-icon{
+    display:block;
   }
 
-  .tonton-dongeng{
+  .dongeng-icon{
     width:100%;
-    padding:20px;
+    padding:50px;
   }
 
   .header-right{
     display: none;
+
   }
    
   .top-wrapper h1 {
     font-size: 20px;
-    line-height: 40px;
+    line-height: 25px;
   }
   
   .top-wrapper{
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
