@@ -90,19 +90,20 @@ header {
 /* Bagian Tentang */
 /* BAGIAN AWAL SELAMAT DATANG */
 
-.tentang {
+.lessons {
   padding: 100px 0 100px 0;
   background: rgba(216, 241, 62, 0.39);
   height: 600px;
   /* color: white; */
+
 }
 
-.tentang .left {
+.lessons .left {
   width: 50%;
   float: left;
 }
 
-.tentang .left h1 {
+.lessons .left h1 {
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -112,7 +113,7 @@ line-height: 24px;
 color: #000000;
 }
 
-.tentang .left p {
+.lessons .left p {
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -120,7 +121,7 @@ font-size: 20px;
 line-height: 35px;
 letter-spacing: 0.1em;
 }
-.tentang a {
+.lessons a {
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -131,14 +132,14 @@ color: black;
 transition: all 0.5s ease;
 }
 
-.tentang a:hover {
+.lessons a:hover {
   font-size: 36px;
   padding: 20px;
   color: rgb(193, 66, 66);
 
 }
 
-.tentang .right {
+.lessons .right {
 
   float: right;
 }
@@ -243,7 +244,7 @@ footer {
     display:none;
   }
 
-  .dongeng-icon{
+  .tonton-dongeng{
     width:100%;
     padding:20px;
   }
@@ -253,11 +254,6 @@ footer {
   }
    
   .top-wrapper h1 {
-    font-size: 20px;
-    line-height: 40px;
-  }
-
-  .tentang h1 {
     font-size: 20px;
     line-height: 40px;
   }
