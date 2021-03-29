@@ -95,6 +95,7 @@ header {
   background: rgba(216, 241, 62, 0.39);
   height: 600px;
   /* color: white; */
+
 }
 
 .lessons .left {
@@ -146,6 +147,7 @@ transition: all 0.5s ease;
 .right img{
   width: 450px;
   height: 450px;
+  
 }
 /* Akhir Bagian Tentang */
 
@@ -158,12 +160,10 @@ transition: all 0.5s ease;
 .heading h1 {
   font-size: 50px;
 }
-
 .dongeng {
   margin-top: 61px;
   justify-content: center;
 }
-
 .tonton-dongeng {
   float: left;
   width: 30%;
@@ -171,7 +171,6 @@ transition: all 0.5s ease;
   margin-left: 10px;
   margin-right: 10px;
 }
-
 .clear {
   clear: left;
 }
@@ -185,7 +184,6 @@ transition: all 0.5s ease;
   text-align: center;
   position: relative;
 }
-
 .dongeng-icon a {
   position: absolute;
   top: 0;
@@ -196,7 +194,6 @@ transition: all 0.5s ease;
   padding-top: 100px;
   transition: opacity 0.7s;
 }
-
 .dongeng-icon a:hover {
   opacity: 1;
 }
@@ -214,6 +211,7 @@ transition: all 0.5s ease;
 /* Akhir Bagian Daftar Dongeng */
 
 /* Bagian Footer */
+
 footer img {
   height: 50px;
 }
@@ -234,6 +232,9 @@ footer {
   .top-wrapper h1 {
     font-size: 32px;
   }
+  .dongeng-icon{
+    width:50%;
+  }
 }
 
 /* Responsive ukuran smartphone max-width;670px */
@@ -241,20 +242,26 @@ footer {
   .menu-icon {
     display:none;
   }
+
+  .dongeng-icon{
+    width:100%;
+  }
+
   .header-right{
     display: none;
   }
+   
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
   
   .top-wrapper{
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-  }
-  
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
   }
   
   .top-wrapper .left {
