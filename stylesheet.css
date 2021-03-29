@@ -240,6 +240,10 @@ footer {
 
 /* Responsive ukuran smartphone max-width;670px */
 @media all and (max-width: 670px){
+  header {
+  height: 50px;
+  }
+  
   .menu-icon {
     display:none;
   }
