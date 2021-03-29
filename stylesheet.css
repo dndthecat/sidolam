@@ -27,16 +27,16 @@ header {
 }
 
 .header-left{
-	float: left;
+  float: left;
 }
 
 .header-left img {
-	width: 100px;
+  width: 100px;
 }
 
 .header-right {
-	float: right;
-	margin-right: 10px;
+  float: right;
+  margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -54,11 +54,11 @@ header {
 }
 
 .menu-icon {
-	display: none;
-	color: white;
-	float: right;
-	font-size: 25px;
-	padding: 21px 0;
+  display: none;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
 }
 
 /* Akhir Bagian Header Logo Dan Navigasi */
@@ -86,31 +86,33 @@ header {
 } 
 /* Akhir Bagian Top Wrapper */
 
-/* Bagian Tentang */
-/* BAGIAN AWAL SELAMAT DATANG */
+/ Bagian Tentang /
+/ BAGIAN AWAL SELAMAT DATANG /
 
-.top-wrapper {
+.lessons {
   padding: 100px 0 100px 0;
   background: rgba(216, 241, 62, 0.39);
   height: 600px;
-  /* color: white; */
+  / color: white; /
+  
 }
 
-.top-wrapper .left {
+.lessons .left {
   width: 50%;
   float: left;
 }
 
-.top-wrapper .left h1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 24px;
-  color: #000000;
+.lessons .left h1 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 24px;
+
+color: #000000;
 }
 
-.top-wrapper .left p {
+.lessons .left p {
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -118,8 +120,7 @@ font-size: 20px;
 line-height: 35px;
 letter-spacing: 0.1em;
 }
-
-.top-wrapper a {
+.lessons a {
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -130,21 +131,24 @@ color: black;
 transition: all 0.5s ease;
 }
 
-.top-wrapper a:hover {
+.lessons a:hover {
   font-size: 36px;
   padding: 20px;
   color: rgb(193, 66, 66);
+
 }
 
-.top-wrapper .right {
+.lessons .right {
+
   float: right;
 }
 
 .right img{
   width: 450px;
   height: 450px;
+  
 }
-/* Akhir Bagian Tentang */
+/ Akhir Bagian Tentang */
 
 /* Bagian Daftar Dongeng by SUTISNA A11*/
 .daftar-dongeng {
@@ -194,14 +198,14 @@ transition: all 0.5s ease;
 }
 
 .dongeng-icon img {
-	width: 300px;
+  width: 300px;
 }
 
 .seemore a {
-	line-height: 500px;
-	color: red;
-	opacity: 1;
-	text-align: center;
+  line-height: 500px;
+  color: red;
+  opacity: 1;
+  text-align: center;
 }
 /* Akhir Bagian Daftar Dongeng */
 
@@ -264,5 +268,4 @@ footer {
     width: 180px;
     height: 150px;
   }
-
 }
