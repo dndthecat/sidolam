@@ -243,8 +243,9 @@ footer {
     display:none;
   }
 
-  .dongeng-icon{
+    .dongeng-icon{
     width:100%;
+    padding:50px;
   }
 
   .header-right{
@@ -252,12 +253,11 @@ footer {
   }
    
   .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 40px;
   }
   
   .top-wrapper{
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
