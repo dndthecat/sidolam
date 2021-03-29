@@ -16,60 +16,74 @@ a {
 }
 
 /* Bagian Header Logo Dan Navigasi */
-header{
+header {
   position: fixed;
   width: 100%;
-  height: 65px;
+  height: 100px;
   top: 0px;
   z-index: 10;
-  background: #A78A44;
-} 
+  background: rgb(167, 138, 68);
+  opacity: 0.7;
+}
+
 .header-left{
-  margin-top: 20px;
-  float: left;
-  font-family: sofia;
-  font-size: 30px;
-  line-height: 30px;
-  margin-left: 60px;
-  color: #FFFFFF;
+	float: left;
+}
+
+.header-left img {
+	width: 100px;
 }
 
 .header-right {
-  float: right;
-  margin-right: -25px;
+	float: right;
+	margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.header-right a {
-  font-family: sofia;
-  font-size: 20px;
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
   transition: all 0.5s;
 }
 
-.fa {
-  margin-right: 5px;
-}
-.menu-icon {
+.header-right a {
+  line-height: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
   color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-  
+  display: block;
 }
 
- 
-
-
+.menu-icon {
+	display: none;
+	color: white;
+	float: right;
+	font-size: 25px;
+	padding: 21px 0;
+}
 
 /* Akhir Bagian Header Logo Dan Navigasi */
 
 /* Bagian Top Wrapper */
+.top-wrapper {
+  font-family: sofia;
+  padding: 50px 0 20px 0;
+  background-image: url(gambar/songket.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
 
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+} 
 /* Akhir Bagian Top Wrapper */
 
 /* Bagian Tentang */
@@ -80,7 +94,6 @@ header{
   background: rgba(216, 241, 62, 0.39);
   height: 600px;
   /* color: white; */
-  
 }
 
 .top-wrapper .left {
@@ -89,14 +102,12 @@ header{
 }
 
 .top-wrapper .left h1 {
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 24px;
-
-
-color: #000000;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 24px;
+  color: #000000;
 }
 
 .top-wrapper .left p {
@@ -107,6 +118,7 @@ font-size: 20px;
 line-height: 35px;
 letter-spacing: 0.1em;
 }
+
 .top-wrapper a {
   font-family: Roboto;
 font-style: normal;
@@ -122,30 +134,99 @@ transition: all 0.5s ease;
   font-size: 36px;
   padding: 20px;
   color: rgb(193, 66, 66);
-
 }
 
 .top-wrapper .right {
-
   float: right;
 }
 
 .right img{
   width: 450px;
   height: 450px;
-  
 }
 /* Akhir Bagian Tentang */
 
-/* Bagian Daftar Dongeng */
+/* Bagian Daftar Dongeng by SUTISNA A11*/
+.daftar-dongeng {
+  background-color: rgb(235, 230, 214);
+  margin-top: -21px;
+  padding-top: 61px;
+}
+.heading h1 {
+  font-size: 50px;
+}
+.dongeng {
+  margin-top: 61px;
+  justify-content: center;
+}
+.tonton-dongeng {
+  float: left;
+  width: 30%;
+  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.clear {
+  clear: left;
+}
+
+.icon-youtube {
+  width: 56px;
+  height: 56px;
+}
+
+.dongeng-icon {
+  text-align: center;
+  position: relative;
+}
+.dongeng-icon a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  padding-top: 100px;
+  transition: opacity 0.7s;
+}
+.dongeng-icon a:hover {
+  opacity: 1;
+}
+
+.dongeng-icon img {
+	width: 300px;
+}
+
+.seemore a {
+	line-height: 500px;
+	color: red;
+	opacity: 1;
+	text-align: center;
+}
 /* Akhir Bagian Daftar Dongeng */
 
 /* Bagian Footer */
+
+footer img {
+  height: 50px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #b3aeb5;
+}
+
+footer {
+  padding-top: 10px;
+  text-align: center;
+}
 /* Akhir Footer */
 
 /* Responsiv ukuran tablet max-width:1000px */
 @media all and (max-width: 1000px){
-  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
 }
 
 /* Responsive ukuran smartphone max-width;670px */
@@ -156,6 +237,12 @@ transition: all 0.5s ease;
   .header-right{
     display: none;
   }
+   
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
   .top-wrapper{
     
     display: block;
@@ -163,12 +250,15 @@ transition: all 0.5s ease;
     margin-right: auto;
     text-align: center;
   }
+  
   .top-wrapper .left {
     width: 100%;
   }
+  
   .top-wrapper .right {
     width: 100%;
   }
+  
   .top-wrapper .right img {
     margin-top: 20px;
     width: 180px;
