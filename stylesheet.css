@@ -67,7 +67,7 @@ header {
 .top-wrapper {
   font-family: sofia;
   padding: 50px 0 20px 0;
-  background-image: url(gambar/songket.jpg);
+  background-image: url(img/background.png);
   background-size: cover;
   color: white;
   text-align: center;
@@ -86,8 +86,8 @@ header {
 } 
 /* Akhir Bagian Top Wrapper */
 
-/ Bagian Tentang /
-/ BAGIAN AWAL SELAMAT DATANG /
+/* Bagian Tentang */
+/* BAGIAN AWAL SELAMAT DATANG */
 
 .lessons {
   padding: 100px 0 100px 0;
@@ -148,7 +148,7 @@ transition: all 0.5s ease;
   height: 450px;
   
 }
-/ Akhir Bagian Tentang */
+/* Akhir Bagian Tentang */
 
 /* Bagian Daftar Dongeng by SUTISNA A11*/
 .daftar-dongeng {
